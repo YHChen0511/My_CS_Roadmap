@@ -43,6 +43,8 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - footnotes
+  - pymdownx.tasklist:
+      clickable_checkbox: true
 
 plugins:
   - i18n:
