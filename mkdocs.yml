@@ -1,0 +1,82 @@
+site_name: Yaohui的CS Roadmap
+
+theme:
+  name: material
+  language: zh
+  static_templates:
+    - 404.html
+  include_search_page: false
+  search_index_only: true
+
+  features:
+    - header.autohide
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  font:
+    text: Roboto Slab
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+
+plugins:
+  - i18n:
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+  - search:
+      lang:
+        - zh
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YHChen0511/My_CS_Roadmap
+
+nav:
+  - 前言: "README.md"
+  - 基础知识:
+    - 基础工具: "基础知识/基础工具.md"
+    - 编程语言: "基础知识/编程语言.md"
+    - 数学基础: "基础知识/数学基础.md"
+  - 核心课程:
+    - 数据结构与算法: "核心课程/数据结构与算法.md"
+    - 计算机体系结构: "核心课程/计算机体系结构.md"
+    - 操作系统: "核心课程/操作系统.md"
+    - 数据库系统: "核心课程/数据库系统.md"
+    - 计算机网络: "核心课程/计算机网络.md"
+  - 进阶专题:
+    - 编译原理: "进阶专题/编译原理.md"
+    - 计算机图形学: "进阶专题/计算机图形学.md"
+    - Web开发: "进阶专题/Web开发.md"
+    - 深度学习与人工智能: "进阶专题/深度学习与人工智能.md"
+    - 分布式系统: "进阶专题/分布式系统.md"

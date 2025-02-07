@@ -27,4 +27,4 @@
 
 ## 参考
 - [CS自学指南](https://csdiy.wiki/)  
-git repo: [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/)
+git repo: [PKUFlyingPig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning/): 参考了内容,同时我好喜欢这个repo的模板所以也用了.
