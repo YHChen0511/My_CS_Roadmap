@@ -44,7 +44,7 @@ markdown_extensions:
   - md_in_html
   - footnotes
   - pymdownx.tasklist:
-      clickable_checkbox: true
+      custom_checkbox: true
 
 plugins:
   - i18n:
